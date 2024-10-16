@@ -153,6 +153,7 @@
     <ClCompile Include="classroom.cpp" />
     <ClCompile Include="computer.cpp" />
     <ClCompile Include="cupboard.cpp" />
+    <ClCompile Include="door.cpp" />
     <ClCompile Include="fan.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="MobileScreen.cpp" />
@@ -166,6 +167,7 @@
     <ClInclude Include="chair.h" />
     <ClInclude Include="computer.h" />
     <ClInclude Include="cupboard.h" />
+    <ClInclude Include="door.h" />
     <ClInclude Include="fan.h" />
     <ClInclude Include="MobileScreen.h" />
     <ClInclude Include="robot.h" />

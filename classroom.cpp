@@ -16,6 +16,7 @@
 #include "shaderClass.h"
 #include "computer.h"
 #include "MobileScreen.h"
+#include "door.h"
 
 
 #define WINDOW_WIDTH 1000
@@ -189,6 +190,13 @@ void renderScene(void) {
 	glVertex3f(-10.0f, 7.0f, 20.0f);
 	glVertex3f(-10.0f, 0.0f, 20.0f);
 	glEnd();
+
+	// Draw the first door (left-hinged)
+	drawDoor(-8.0f, 0.0f, 20.0f, 3.8f, 4.84f); // Adjusted to fit the space
+
+	// Draw the second door (right-hinged)
+	drawDoor(-5.0f, 0.0f, 20.0f, 3.8f, 4.84f); // Adjusted to fit the space
+
 
 	glColor3f(1.0f, 0.9f, 0.7f);
 	glBegin(GL_QUADS);
